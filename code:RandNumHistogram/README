@@ -1,0 +1,35 @@
+	Write a program that generates N random values of type integer within a range specified by
+scanf commands. These values should be stored in an array. The output of the program
+should be a graphical histogram such as the one shown in the example at the bottom of the
+page.
+	Your program should compute the number of occurrences for each possible value between
+min_value and max_value by checking values of the elements of array which stores
+the numbers. For each value within the specified range the character `x` should be appended
+as many times as the number of occurrence.
+	Note that both N and the difference between max_value and min_value should be less
+than 100. You will need to store numbers and occurrence counts in static arrays of size 100.
+If N or the max_value - min_value difference is over 100, your program should quit
+with a warning message.
+
+
+
+Example run:
+
+>Enter N Value (e.g. 100) : 100
+>Enter Min Value (e.g. 0) : 0
+>Enter Max Value (e.g. 10) : 10
+>Histogram of the N=100 random numbers is as follows
+>
+> 0 xxxx
+> 1 xxxxxxx
+> 2 xxxxxxxx
+> 3 xxxxxxxxxxx
+> 4 xxxxxxxxxxx
+> 5 xxxxxxxxxxx
+> 6 xxxxxxxxxxxxx
+> 7 xxxxxxxxxxxx
+> 8 xxxxxxxxx
+> 9 xxxxxxxx
+>10 xxxxxx
+>
+>Exiting now...
