@@ -1,0 +1,16 @@
+
+
+EE204 - HW - ROOT FINDING
+
+
+you are going to find the intervals which contain any roots of any polynomial. You are
+going to create a function and find the intervals which contain roots of the function given below;
+
+f (x) = x^4 + 7/2 * x  − 3x^2 − 7/2 * x + 2.
+
+
+You are given an interval which is [−6, 6] and for this interval your code should;
+Step1. Split the interval into subintervals,
+Step2. For each subinterval, Check whether this subinterval contains any root.
+Step3. Display your resulting intervals for the roots on the screen.
+For step 1, use Step Size = 0.03 to split the interval into subintervals.
